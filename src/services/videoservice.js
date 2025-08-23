@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://6mqqg03m-8000.inc1.devtunnels.ms/api";
+const BASE_URL = import.meta.env.VITE_BASE_URL; 
 
 export async function fetchVideos() {
   const token = localStorage.getItem("access");
