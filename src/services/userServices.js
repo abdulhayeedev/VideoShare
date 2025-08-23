@@ -1,6 +1,6 @@
 import axios from "axios";
 // Service for interacting with the backend API for videos
-const BASE_URL = "https://6mqqg03m-8000.inc1.devtunnels.ms/api";
+const BASE_URL = "https://videoshare-f3f4fjc2fehbfzah.canadacentral-01.azurewebsites.net/api";
 
 
 export async function registerUser({ username, email, password, is_creator }) {
